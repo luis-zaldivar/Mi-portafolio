@@ -1,0 +1,8 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Elige el color de fondo apropiado */
+    z-index: 10; /* Asegúrate de que la barra esté por encima de otros contenidos */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombras opcionales para un efecto elevado */
+  }
