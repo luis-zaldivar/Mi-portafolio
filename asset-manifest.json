@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Mi-portafolio/static/css/main.e6c13ad2.css",
+    "main.js": "/Mi-portafolio/static/js/main.42983a08.js",
+    "static/js/453.211be4f6.chunk.js": "/Mi-portafolio/static/js/453.211be4f6.chunk.js",
+    "static/media/asm.png": "/Mi-portafolio/static/media/asm.6862c9516dd30cdcd9ac.png",
+    "static/media/Placas.png": "/Mi-portafolio/static/media/Placas.88c42a90c6eb93aae896.png",
+    "static/media/Logo.png": "/Mi-portafolio/static/media/Logo.d6a7c454073237093986.png",
+    "static/media/Neko.png": "/Mi-portafolio/static/media/Neko.8c498a3a295ba0f2cca2.png",
+    "static/media/social.png": "/Mi-portafolio/static/media/social.a1eed4284621750c33f3.png",
+    "static/media/icono.png": "/Mi-portafolio/static/media/icono.de7566b8e5cbe2eab2e3.png",
+    "static/media/py.jpg": "/Mi-portafolio/static/media/py.f2094f2a5468327c6298.jpg",
+    "static/media/react.svg": "/Mi-portafolio/static/media/react.bbc844f2606a41903bbde6f1719d2164.svg",
+    "static/media/godot_engine.svg": "/Mi-portafolio/static/media/godot_engine.ee7dea8037b28b17f329380e3c3eddff.svg",
+    "static/media/vscode.svg": "/Mi-portafolio/static/media/vscode.fa72c1479bb117f95cd4dc0409ce976d.svg",
+    "static/media/whatsapp.svg": "/Mi-portafolio/static/media/whatsapp.f4472f61c02c2875e14b0aa49d41bbbb.svg",
+    "static/media/github.svg": "/Mi-portafolio/static/media/github.f27406f6eb725b87b7999c2498d99e0c.svg",
+    "static/media/typescript.svg": "/Mi-portafolio/static/media/typescript.b5b2d718660f30947dd581617ccdee0b.svg",
+    "static/media/python.svg": "/Mi-portafolio/static/media/python.18274d92671395b5f493c919b24b45bb.svg",
+    "static/media/linkedin.svg": "/Mi-portafolio/static/media/linkedin.c12c12137beb21d0f4ab5b16b367c1fd.svg",
+    "index.html": "/Mi-portafolio/index.html",
+    "static/media/chakra-ui.svg": "/Mi-portafolio/static/media/chakra-ui.4a444cdf025a387a2ea97dbcec3ac522.svg",
+    "static/media/django.svg": "/Mi-portafolio/static/media/django.d9f097cba04c63557ffc2043a54125f7.svg",
+    "static/media/git.svg": "/Mi-portafolio/static/media/git.aeb3f4d71f395035a416d6e5a7afa54e.svg",
+    "main.e6c13ad2.css.map": "/Mi-portafolio/static/css/main.e6c13ad2.css.map",
+    "main.42983a08.js.map": "/Mi-portafolio/static/js/main.42983a08.js.map",
+    "453.211be4f6.chunk.js.map": "/Mi-portafolio/static/js/453.211be4f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.42983a08.js"
+  ]
+}
