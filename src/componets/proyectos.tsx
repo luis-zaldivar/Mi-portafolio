@@ -24,7 +24,10 @@ const ProjectCard: React.FC<CardProps> = ({
 }) => {
   return (
     <ChakraBox maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={imageUrl} alt={title} />
+      {/* Añadir un contenedor para la imagen para centrarla */}
+      <ChakraBox display="flex" justifyContent="center" alignItems="center" height="200px">
+        <Image src={imageUrl} alt={title} maxH="200px" maxW="100%" objectFit="cover" />
+      </ChakraBox>
       <Stack p="6">
         <Heading size="md">{title}</Heading>
         {description && <Text fontSize="sm">{description}</Text>}

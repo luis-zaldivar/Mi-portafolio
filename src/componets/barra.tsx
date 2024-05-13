@@ -2,6 +2,7 @@ import React from 'react';
 import { Flex, Image, IconButton, useColorMode, useColorModeValue, Button } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import Logo from "../img/Logo.png";
+import { useTranslation } from 'react-i18next';
 
 // Define los tipos para las props
 interface NavigationBarProps {
@@ -19,6 +20,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
   skillsRef,
   contactRef
 }) => {
+  const { t } = useTranslation();
   const { colorMode, toggleColorMode } = useColorMode();
   const bgColor = useColorModeValue("white", "gray.800");
   const color = useColorModeValue("gray.800", "white");
@@ -41,10 +43,10 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
     >
       <Image src={Logo} alt="Logo" boxSize="100px" objectFit="contain" />
       <Flex gap="2rem">
-        <Button onClick={() => scrollToSection(aboutRef)}>About</Button>
-        <Button onClick={() => scrollToSection(projectsRef)}>Projects</Button>
-        <Button onClick={() => scrollToSection(skillsRef)}>Skills</Button>
-        <Button onClick={() => scrollToSection(contactRef)}>Contact</Button>
+        <Button onClick={() => scrollToSection(aboutRef)}>{t('about.title')}</Button>
+        <Button onClick={() => scrollToSection(projectsRef)}>{t('projects.title')}</Button>
+        <Button onClick={() => scrollToSection(skillsRef)}>{t('skills.title')}</Button>
+        <Button onClick={() => scrollToSection(contactRef)}>{t('contact.title')}</Button>
       </Flex>
       <IconButton
         icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}

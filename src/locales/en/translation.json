@@ -1,0 +1,34 @@
+{
+  "about":{
+     "title":"About Me",
+     "description":"Hello! I am a Computer Engineering graduate..."
+  },
+  "contact":{
+     "title":"Contact",
+     "description":"Feel free to reach out to me..."
+  },
+  "projects":{
+     "list":[
+        {
+           "title":"Web Music Player",
+           "description":"This project is an advanced music player developed using Django, HTML, CSS, and JavaScript..."
+        },
+        {
+           "title":"Social Events Application",
+           "description":"This web application is designed to facilitate the creation, management, and participation in social events, using Django REST Framework as backend and React with Chakra UI on the frontend. Users can register, create events, manage invitations, and participate in other users' events. The interface, optimized with Chakra UI, provides a clean and modern user experience, with intuitive navigation and responsive design."
+        },
+        {
+           "title":"License Plate Detector",
+           "description":"This application is an advanced system for automatic license plate detection. It uses computer vision technology to identify and read license plate numbers in real time. This tool is ideal for enhancing security in parking lots and controlled access points, offering an efficient and automated solution for vehicle access management."
+        },
+        {
+           "title":"Assembler with Python",
+           "description":"This project involves an assembler implemented in Python, designed to translate programs written in assembly language into machine code. The Python assembler facilitates the understanding of how high-level programs are translated into instructions that the machine can execute directly. This project focuses on providing an educational and practical tool for students and developers who want to explore low-level compilation and computer architecture."
+        }
+     ]
+  },
+  "skills":{
+     "title":"Skills",
+     "description":"My technical skills include Python, Django, React, and Git..."
+  }
+}
