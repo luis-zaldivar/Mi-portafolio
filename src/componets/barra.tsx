@@ -3,6 +3,7 @@ import { Flex, Image, IconButton, useColorMode, useColorModeValue, Button } from
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import Logo from "../img/Logo.png";
 import { useTranslation } from 'react-i18next';
+import LanguageSelector from './LanguageSelector';  // Asegúrate de importar el componente
 
 // Define los tipos para las props
 interface NavigationBarProps {
@@ -47,6 +48,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
         <Button onClick={() => scrollToSection(projectsRef)}>{t('projects.title')}</Button>
         <Button onClick={() => scrollToSection(skillsRef)}>{t('skills.title')}</Button>
         <Button onClick={() => scrollToSection(contactRef)}>{t('contact.title')}</Button>
+        <LanguageSelector />  
       </Flex>
       <IconButton
         icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}

@@ -1,0 +1,34 @@
+{
+  "about": {
+    "title": "Sobre mim",
+    "description": "Olá! Sou um Engenheiro de Computação apaixonado pelo desenvolvimento de software. Ao longo da minha carreira, adquiri habilidades em tecnologias de ponta como Python, Django e React, e tenho experiência no uso de ferramentas de controle de versão como Git. O que realmente me apaixona no desenvolvimento é a satisfação que sinto ao resolver problemas complexos e ver meus projetos tomar forma e funcionar como esperado. Essa paixão me levou a enfrentar desafios significativos e, em uma ocasião, me levou a ganhar um torneio de programação na universidade, uma experiência que não só testou minhas habilidades técnicas, mas também minha capacidade de trabalhar sob pressão e em equipe. Profissionalmente, meu objetivo é continuar aprendendo e crescendo no campo da tecnologia. Estou constantemente procurando novas tecnologias para dominar e projetos desafiadores que possam expandir meus horizontes e melhorar minhas habilidades. Comprometo-me com o desenvolvimento contínuo da minha carreira e aspiro a avançar ainda mais na minha compreensão técnica e contribuições para o mundo do software."
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Não hesite em contactar-me através de..."
+  },
+  "projects": {
+    "title": "Projetos",
+    "list": [
+      {
+        "title": "Reprodutor de Música Web",
+        "description": "Este projeto é um reprodutor de música avançado desenvolvido usando Django, HTML, CSS e JavaScript. A aplicação permite aos usuários criar e gerir suas próprias contas, oferecendo uma experiência personalizada em múltiplos dispositivos. Os usuários podem se registrar para criar playlists personalizadas, adicionar ou remover músicas e baixar música para desfrutar offline. A interface do usuário é projetada para ser intuitiva e atraente, garantindo facilidade de uso para usuários de todos os níveis."
+      },
+      {
+        "title": "Aplicação de Eventos Sociais",
+        "description": "Esta aplicação web é projetada para facilitar a criação, gestão e participação em eventos sociais, utilizando Django REST Framework como backend e React com Chakra UI no frontend. Os usuários podem se registrar, criar eventos, gerir convites e participar de eventos de outros usuários. A interface, otimizada com Chakra UI, proporciona uma experiência de usuário limpa e moderna, com navegação intuitiva e design responsivo."
+      },
+      {
+        "title": "Detector de Placas",
+        "description": "Esta aplicação é um sistema avançado para a detecção automática de placas veiculares. Utiliza tecnologias de visão por computador para identificar e ler números de placas em tempo real. Esta ferramenta é ideal para melhorar a segurança em estacionamentos e pontos de acesso controlado, oferecendo uma solução eficiente e automatizada para a gestão de acessos veiculares."
+      },
+      {
+        "title": "Montador com Python",
+        "description": "Este projeto consiste em um montador implementado em Python, projetado para traduzir programas escritos em linguagem de montagem para código máquina. O montador Python facilita a compreensão de como os programas de alto nível são traduzidos para instruções que a máquina pode executar diretamente. Este projeto se concentra em oferecer uma ferramenta educativa e prática para estudantes e desenvolvedores interessados em explorar a compilação de baixo nível e a arquitetura de computadores."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades"
+  }
+}

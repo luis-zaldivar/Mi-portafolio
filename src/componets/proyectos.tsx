@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Box as ChakraBox,
   Image,
@@ -7,7 +7,7 @@ import {
   Text,
   Divider,
   Button,
-} from "@chakra-ui/react";
+} from '@chakra-ui/react';
 
 interface CardProps {
   imageUrl: string; // URL de la imagen del proyecto
@@ -24,7 +24,7 @@ const ProjectCard: React.FC<CardProps> = ({
 }) => {
   return (
     <ChakraBox maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      {/* Añadir un contenedor para la imagen para centrarla */}
+      {/* Contenedor para la imagen para centrarla */}
       <ChakraBox display="flex" justifyContent="center" alignItems="center" height="200px">
         <Image src={imageUrl} alt={title} maxH="200px" maxW="100%" objectFit="cover" />
       </ChakraBox>
@@ -36,6 +36,8 @@ const ProjectCard: React.FC<CardProps> = ({
           <Button
             as="a"
             href={projectLink}
+            target="_blank"  // Añadir esto para abrir en una nueva pestaña
+            rel="noopener noreferrer" // Buenas prácticas de seguridad
             colorScheme="teal"
             mt="4"
             width="full"

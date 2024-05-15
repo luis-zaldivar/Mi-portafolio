@@ -1,34 +1,34 @@
 {
-  "about":{
-     "title":"About Me",
-     "description":"Hello! I am a Computer Engineering graduate..."
+  "about": {
+    "title": "About Me",
+    "description": "Hello! I am a Computer Engineering graduate passionate about software development. Throughout my career, I have acquired skills in cutting-edge technologies like Python, Django, and React, and I have experience in handling version control tools such as Git. What I truly love about development is the satisfaction I feel when solving complex problems and seeing my projects come to life and work as expected. This passion has led me to face significant challenges, and on one occasion, led me to win a programming tournament at university, an experience that tested not only my technical skills but also my ability to work under pressure and as part of a team. Professionally, my goal is to continue learning and growing in the field of technology. I am constantly looking for new technologies to master and challenging projects that can broaden my horizons and enhance my skills. I am committed to the continuous development of my career and aspire to advance even further in my technical understanding and contributions to the world of software."
   },
-  "contact":{
-     "title":"Contact",
-     "description":"Feel free to reach out to me..."
+  "contact": {
+    "title": "Contact",
+    "description": "Feel free to reach out to me via..."
   },
-  "projects":{
-     "list":[
-        {
-           "title":"Web Music Player",
-           "description":"This project is an advanced music player developed using Django, HTML, CSS, and JavaScript..."
-        },
-        {
-           "title":"Social Events Application",
-           "description":"This web application is designed to facilitate the creation, management, and participation in social events, using Django REST Framework as backend and React with Chakra UI on the frontend. Users can register, create events, manage invitations, and participate in other users' events. The interface, optimized with Chakra UI, provides a clean and modern user experience, with intuitive navigation and responsive design."
-        },
-        {
-           "title":"License Plate Detector",
-           "description":"This application is an advanced system for automatic license plate detection. It uses computer vision technology to identify and read license plate numbers in real time. This tool is ideal for enhancing security in parking lots and controlled access points, offering an efficient and automated solution for vehicle access management."
-        },
-        {
-           "title":"Assembler with Python",
-           "description":"This project involves an assembler implemented in Python, designed to translate programs written in assembly language into machine code. The Python assembler facilitates the understanding of how high-level programs are translated into instructions that the machine can execute directly. This project focuses on providing an educational and practical tool for students and developers who want to explore low-level compilation and computer architecture."
-        }
-     ]
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "Web Music Player",
+        "description": "This project is an advanced music player developed using Django, HTML, CSS, and JavaScript. The application allows users to create and manage their own accounts, offering a personalized experience across multiple devices. Users can register to create custom playlists, add or remove songs, and download music for offline enjoyment. The user interface is designed to be intuitive and appealing, ensuring ease of use for users at all levels."
+      },
+      {
+        "title": "Social Events Application",
+        "description": "This web application is designed to facilitate the creation, management, and participation in social events, using Django REST Framework as the backend and React with Chakra UI on the frontend. Users can register, create events, manage invitations, and participate in other users' events. The interface, optimized with Chakra UI, provides a clean and modern user experience, with intuitive navigation and a responsive design."
+      },
+      {
+        "title": "License Plate Detector",
+        "description": "This application is an advanced system for automatic vehicle license plate detection. It uses computer vision technologies to identify and read license plate numbers in real-time. This tool is ideal for enhancing security in parking lots and controlled access points, offering an efficient and automated solution for vehicle access management."
+      },
+      {
+        "title": "Assembler with Python",
+        "description": "This project involves an assembler implemented in Python, designed to translate programs written in assembly language into machine code. The Python assembler aids in understanding how high-level programs are translated into instructions that the machine can directly execute. This project focuses on providing an educational and practical tool for students and developers interested in exploring low-level compilation and computer architecture."
+      }
+    ]
   },
-  "skills":{
-     "title":"Skills",
-     "description":"My technical skills include Python, Django, React, and Git..."
+  "skills": {
+    "title": "Skills"
   }
 }

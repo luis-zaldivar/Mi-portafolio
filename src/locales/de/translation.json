@@ -1,0 +1,34 @@
+{
+  "about": {
+    "title": "Über mich",
+    "description": "Hallo! Ich bin ein leidenschaftlicher Computeringenieur mit einer Vorliebe für Softwareentwicklung. Im Laufe meiner Karriere habe ich Fähigkeiten in führenden Technologien wie Python, Django und React erworben und habe Erfahrung im Umgang mit Versionskontrolltools wie Git. Was mich wirklich an der Entwicklung begeistert, ist die Zufriedenheit, die ich empfinde, wenn ich komplexe Probleme löse und sehe, wie meine Projekte Gestalt annehmen und funktionieren, wie ich es erwarte. Diese Leidenschaft hat mich dazu gebracht, mich bedeutenden Herausforderungen zu stellen, und führte mich sogar einmal dazu, ein Programmierturnier an der Universität zu gewinnen, eine Erfahrung, die nicht nur meine technischen Fähigkeiten, sondern auch meine Fähigkeit, unter Druck und im Team zu arbeiten, unter Beweis stellte. Beruflich ist mein Ziel, weiterhin zu lernen und im Technologiebereich zu wachsen. Ich suche ständig nach neuen Technologien, die ich beherrschen kann, und herausfordernden Projekten, die meine Horizonte erweitern und meine Fähigkeiten verbessern können. Ich bin der kontinuierlichen Entwicklung meiner Karriere verpflichtet und strebe danach, mein technisches Verständnis und meine Beiträge zur Welt der Software weiter zu vertiefen."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Zögern Sie nicht, mich über..."
+  },
+  "projects": {
+    "title": "Projekte",
+    "list": [
+      {
+        "title": "Web-Musikplayer",
+        "description": "Dieses Projekt ist ein fortschrittlicher Musikplayer, entwickelt mit Django, HTML, CSS und JavaScript. Die Anwendung ermöglicht es Benutzern, eigene Konten zu erstellen und zu verwalten, und bietet eine personalisierte Erfahrung auf mehreren Geräten. Benutzer können sich registrieren, um personalisierte Playlists zu erstellen, Lieder hinzuzufügen oder zu löschen und Musik herunterzuladen, um sie offline zu genießen. Die Benutzeroberfläche ist darauf ausgelegt, intuitiv und ansprechend zu sein, und gewährleistet eine einfache Bedienung für Benutzer aller Kenntnisstufen."
+      },
+      {
+        "title": "Anwendung für soziale Veranstaltungen",
+        "description": "Diese Webanwendung ist dafür ausgelegt, die Erstellung, Verwaltung und Teilnahme an sozialen Veranstaltungen zu erleichtern, wobei das Django REST Framework als Backend und React mit Chakra UI im Frontend verwendet wird. Benutzer können sich registrieren, Veranstaltungen erstellen, Einladungen verwalten und an Veranstaltungen anderer Benutzer teilnehmen. Die mit Chakra UI optimierte Schnittstelle bietet ein sauberes und modernes Benutzererlebnis mit intuitiver Navigation und einem responsiven Design."
+      },
+      {
+        "title": "Kennzeichenerkennung",
+        "description": "Diese Anwendung ist ein fortschrittliches System zur automatischen Erkennung von Fahrzeugkennzeichen. Es nutzt Technologien der Computer Vision, um Kennzeichennummern in Echtzeit zu identifizieren und zu lesen. Dieses Werkzeug ist ideal zur Verbesserung der Sicherheit auf Parkplätzen und an kontrollierten Zugangspunkten, indem es eine effiziente und automatisierte Lösung für das Fahrzeugzugangsmanagement bietet."
+      },
+      {
+        "title": "Assembler mit Python",
+        "description": "Dieses Projekt besteht aus einem in Python implementierten Assembler, der darauf ausgelegt ist, Programme, die in Assemblersprache geschrieben sind, in Maschinencode zu übersetzen. Der Python-Assembler erleichtert das Verständnis dafür, wie Programme auf hoher Ebene in Anweisungen übersetzt werden, die die Maschine direkt ausführen kann. Dieses Projekt konzentriert sich darauf, ein pädagogisches und praktisches Werkzeug für Studenten und Entwickler zu bieten, die die Kompilierung auf niedriger Ebene und die Comput architektur erforschen wollen."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Fähigkeiten"
+  }
+}
