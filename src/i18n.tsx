@@ -30,8 +30,8 @@ i18n
         translation: translationRU,
       }
     },
-    lng: 'ja', // Establece el inglés como el idioma por defecto
-    fallbackLng: 'ja', // Establece inglés como el idioma de reserva
+    lng: 'en', // Establece el inglés como el idioma por defecto
+    fallbackLng: 'en', // Establece inglés como el idioma de reserva
     interpolation: {
       escapeValue: false, // React ya se encarga de la seguridad
     },
